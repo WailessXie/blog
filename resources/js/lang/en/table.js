@@ -24,7 +24,9 @@ export default {
   enabled: 'Enabled',
   article_title: 'Article Title',
   click_num: 'Clicks Num',
+  comment_count: 'Comments',
   ip: 'IP',
   new_folder: 'New Folder',
+  vote_count: 'Votes',
   upload: 'Uplaod'
 }
