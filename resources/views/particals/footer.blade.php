@@ -22,6 +22,13 @@
                         </a>
                     </li>
                     @endif
+                    @if(config('blog.footer.weibo.open'))
+                    <li class="mx-2">
+                        <a href="{{ config('blog.footer.weibo.url') }}" target="_blank">
+                            <i class="fab fa-weibo"></i>
+                        </a>
+                    </li>
+                    @endif
                 </ul>
                 <div class="links">
                     <a href="{{ url('link') }}">{{ lang('Links') }}</a>
