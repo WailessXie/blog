@@ -68,7 +68,7 @@ return [
             'open' => true,
             'url'  => 'https://weibo.com/xiebiaoye'
         ],
-        'meta' => '© Wailess Blog 2016. Powered By Jiajian Chan',
+        'meta' => '© Wailess Blog 2019. Powered By Wailess Xie',
     ],
 
     'license' => 'Powered By Jiajian Chan.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
