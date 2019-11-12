@@ -31,15 +31,9 @@
 
         window.Language = "{{ config('app.locale') }}"
     </script>
-</head>
-<body>
-    <div id="app"></div>
-
-    <script src="{{ mix('js/app.js') }}"></script>
-
     @if(config('blog.google.open'))
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('blog.google.id') }}" +></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('blog.google.id') }}"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -48,5 +42,12 @@
             gtag('config', '{{ config('blog.google.id') }}');
         </script>
     @endif
+</head>
+<body>
+    <div id="app"></div>
+
+    <script src="{{ mix('js/app.js') }}"></script>
+
+
 </body>
 </html>
