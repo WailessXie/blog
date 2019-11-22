@@ -8,9 +8,9 @@
 @endsection
 @section('content')
     @component('particals.jumbotron')
-        <h3>{{ config('blog.article.title') }}</h3>
+        <h3>{{ lang('Archives') }}</h3>
 
-        <h6>{{ config('blog.article.description') }}</h6>
+        <h6>{{ lang('Archives Meta') }}</h6>
     @endcomponent
     <div class="container">
         <div class="row">

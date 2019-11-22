@@ -99,5 +99,6 @@ return [
     'Be Banned Comment'    => 'Comment was banned!',
     'Likes'                => 'upvoted your comment on',
     'Dislikes'             => 'downvoted your comment on',
-    'Archives'              => 'archive',
+    'Archives'              => 'Archives',
+    'Archives Meta'        => 'Archives for all articles',
 ];

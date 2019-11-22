@@ -99,5 +99,6 @@ return [
     'Be Banned Comment'    => '评论已被禁止!',
     'Likes'                => '...',
     'Dislikes'             => '...',
-    'Archives'              => '归档',
+    'Archives'             => '归档',
+    'Archives Meta'        => '归档文章',
 ];
