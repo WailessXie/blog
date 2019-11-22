@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('styles')
     <style>
-        .jumbotron{
+        .jumbotron {
             margin-bottom: 0;
         }
     </style>
@@ -15,41 +15,42 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="VivaTimeline">
-                    <dl>
-
-                        @forelse( $articles as $index => $article)
-                            <dt>{{ $index }}</dt>
-                            @foreach( $article as $date => $list)
-                                <dd class="{{ rand(1,2)==1 ? 'pos-left': 'pos-right' }} clearfix">
-                                    <div class="circ"></div>
-                                    <div class="time">{{ $date }}</div>
-                                    <div class="events">
-                                        <div class="events-body">
-                                            @foreach( $list as $data )
-                                                <div class="row">
-                                                    <div class="col-md-6 float-left">
-                                                        <img alt="{{ $data->slug }}" src="{{ $data->page_image }}"
-                                                             class="events-object img-responsive img-rounded"
-                                                             style="width: 100%;">
+                @if( $articles != [] )
+                    <div class="VivaTimeline">
+                        <dl>
+                            @foreach( $articles as $index => $article)
+                                <dt>{{ $index }}</dt>
+                                @foreach( $article as $date => $list)
+                                    <dd class="{{ rand(1,2)==1 ? 'pos-left': 'pos-right' }} clearfix">
+                                        <div class="circ"></div>
+                                        <div class="time">{{ $date }}</div>
+                                        <div class="events">
+                                            <div class="events-body">
+                                                @foreach( $list as $data )
+                                                    <div class="row">
+                                                        <div class="col-md-6 float-left">
+                                                            <img alt="{{ $data->slug }}" src="{{ $data->page_image }}"
+                                                                 class="events-object img-responsive img-rounded"
+                                                                 style="width: 100%;">
+                                                        </div>
+                                                        <div class="events-desc">
+                                                            {{ $data->meta_description }}
+                                                        </div>
                                                     </div>
-                                                    <div class="events-desc">
-                                                        {{ $data->meta_description }}
-                                                    </div>
-                                                </div>
-                                            @endforeach
+                                                @endforeach
+                                            </div>
+                                            <div class="events-footer">
+                                                123
+                                            </div>
                                         </div>
-                                        <div class="events-footer">
-                                            123
-                                        </div>
-                                    </div>
-                                </dd>
+                                    </dd>
+                                @endforeach
                             @endforeach
-                        @empty
-                            <h3 class="text-center">{{ lang('Nothing') }}</h3>
-                        @endforelse
-                    </dl>
-                </div>
+                        </dl>
+                    </div>
+                @else
+                    <h3 class="text-center">{{ lang('Nothing') }}</h3>
+                @endif
             </div>
         </div>
     </div>

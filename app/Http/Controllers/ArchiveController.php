@@ -14,6 +14,7 @@ class ArchiveController extends Controller
         $data = Article::checkAuth()->get();
 //        dd($data);
         $articles =  (new Archive())->ArchivesDocument($data);
+//        $articles =  [];
 //        dd($articles);
 //        foreach ($articles as $article){
 //            foreach ($article as $list){
