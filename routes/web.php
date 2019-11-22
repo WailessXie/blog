@@ -50,6 +50,9 @@ Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
 // Link
 Route::get('link', 'LinkController@index');
 
+//archive
+Route::get('archive','ArchiveController@index');
+
 // Category
 Route::group(['prefix' => 'category'], function () {
     Route::get('{category}', 'CategoryController@show');

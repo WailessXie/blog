@@ -14,6 +14,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">{{ lang('Articles') }}</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('category') }}">{{ lang('Categories') }}</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url('archive') }}">{{ lang('Archives') }}</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

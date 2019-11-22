@@ -66,6 +66,19 @@ class Article extends Model
     }
 
     /**
+     * 自定义值，数据库没有
+     * @var array
+     */
+    protected $appends = ['archive_time'];
+
+    /**
+     * 自定义值访问器
+     * @return mixed
+     */
+    public function getArchiveTimeAttribute(){
+        return $this->attributes['created_at'];
+    }
+    /**
      * Get the config for the configuration.
      *
      * @return \Illuminate\Database\Eloquent\Relations\morphMany
@@ -111,10 +124,10 @@ class Article extends Model
      */
     public function setUniqueSlug($value, $extra)
     {
-        $slug = Str::slug($value.'-'.$extra);
+        $slug = Str::slug($value . '-' . $extra);
 
         if (static::whereSlug($slug)->exists()) {
-            $this->setUniqueSlug($slug, (int) $extra + 1);
+            $this->setUniqueSlug($slug, (int)$extra + 1);
 
             return;
         }

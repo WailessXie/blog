@@ -155,7 +155,7 @@ export default {
     },
     searchPlaceholder: {
       type: String,
-      default: '',
+      default: 'Search',
     }
   },
   components: {
@@ -342,5 +342,8 @@ export default {
   i {
     font-size: 0.8rem;
   }
+}
+.input-group{
+  width: auto;
 }
 </style>
