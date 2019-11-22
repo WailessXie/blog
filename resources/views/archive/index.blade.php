@@ -27,7 +27,7 @@
                                         <div class="events">
                                             <div class="events-body">
                                                 @foreach( $list as $data )
-                                                    <div class="row">
+                                                    <div class="row" style="transform: rotate(0);">
                                                         <div class="col-md-6 float-left">
                                                             <img alt="{{ $data->slug }}" src="{{ $data->page_image }}"
                                                                  class="events-object img-responsive img-rounded"
@@ -36,6 +36,7 @@
                                                         <div class="events-desc">
                                                             {{ $data->meta_description }}
                                                         </div>
+                                                        <a  href="{{ url($data->slug) }}" class="stretched-link"></a>
                                                     </div>
                                                 @endforeach
                                             </div>
