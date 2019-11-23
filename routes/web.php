@@ -53,6 +53,9 @@ Route::get('link', 'LinkController@index');
 //archive
 Route::get('archive','ArchiveController@index');
 
+//about
+
+Route::get('about','AboutController@index');
 // Category
 Route::group(['prefix' => 'category'], function () {
     Route::get('{category}', 'CategoryController@show');

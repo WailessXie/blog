@@ -21,7 +21,7 @@
                             @foreach( $articles as $index => $article)
                                 <dt>{{ $index }}</dt>
                                 @foreach( $article as $date => $list)
-                                    <dd class="{{ rand(1,2)==1 ? 'pos-left': 'pos-right' }} clearfix">
+                                    <dd class="{{ rand(1,2)==1 ? 'pos-left': 'pos-right' }} clearfix wow animated fadeIn">
                                         <div class="circ"></div>
                                         <div class="time">{{ $date }}</div>
                                         <div class="events">

@@ -12,7 +12,7 @@
             <div class="col-md-6 offset-md-3">
                 <ul class="list-group">
                     @forelse($categories as $category)
-                        <li class="list-group-item">
+                        <li class="list-group-item wow animated fadeIn">
                             <span class="badge badge-secondary float-right">{{ $category->articles->count() }}</span>
                             <a href="{{ url('category', ['name' => $category->name]) }}">{{ $category->name }}</a>
                         </li>

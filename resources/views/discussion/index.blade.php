@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 @forelse($discussions as $discussion)
-                <div class="media my-3">
+                <div class="media my-3 wow animated fadeIn">
                     <div class="media-left mr-3">
                         <a href="{{ url('discussion', ['id' => $discussion->id]) }}">
                             <img class="media-object rounded-circle" width="50" src="{{ $discussion->user->avatar ?? config('blog.default_avatar') }}">
