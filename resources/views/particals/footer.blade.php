@@ -32,6 +32,7 @@
                 </ul>
                 <div class="links">
                     <a href="{{ url('link') }}">{{ lang('Links') }}</a>
+                    <a href="{{ url('about') }}">{{ lang('About Me') }}</a>
                 </div>
             </div>
         </div>

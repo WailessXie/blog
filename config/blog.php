@@ -42,6 +42,8 @@ return [
         'open' => env('GOOGLE_OPEN') ?: false
     ],
 
+    'static' =>env('STATIC'),
+
     // Article Page
     'article' => [
         'title'       => 'Nothing is impossible.',
