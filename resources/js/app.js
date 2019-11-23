@@ -19,7 +19,6 @@ import locales from 'lang/index'
 import App from './App.vue'
 
 require('dashboard/runtime/mixins/index')
-require('vendor/jquery.eeyellow.Timeline.js')
 window.marked = require('marked')
 window.hljs = require('vendor/highlight.min.js')
 window.toastr = require('toastr/build/toastr.min.js')

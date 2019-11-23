@@ -59,7 +59,7 @@
 @section('scripts')
     <script>
         $('.VivaTimeline').vivaTimeline({
-            carousel: false,
+            carousel: true,
             carouselTime: 3000
         });
     </script>

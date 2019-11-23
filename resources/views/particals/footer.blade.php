@@ -1,4 +1,4 @@
-<footer id="footer" class="footer">
+<footer id="footer" class="footer wow animated fadeIn">
     <div class="container text-center">
         <div class="row content">
             <div class="col-md-4 offset-md-4">

@@ -1,5 +1,5 @@
 @if ($paginator->hasPages())
-<div class="text-center">
+<div class="text-center wow animated fadeIn">
     <div class="pagination pagination-minimal">
         <ul>
             {{-- Previous Page Link --}}

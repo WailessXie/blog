@@ -13,6 +13,8 @@ try {
 require('social-share.js/dist/js/social-share.min.js');
 require('vendor/select2.min.js');
 require('vendor/jquery.eeyellow.Timeline.js')
+const WOW = require('wowjs');
+window.wow = new WOW.WOW({ live: false });
 window.marked = require('marked');
 window.hljs = require('vendor/highlight.min.js');
 window.toastr = require('toastr/build/toastr.min.js');

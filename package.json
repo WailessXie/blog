@@ -41,5 +41,9 @@
     "vue-router": "^2.8.1",
     "vue-template-compiler": "^2.6.8",
     "vuex": "^2.5.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "wowjs": "^1.1.3"
   }
 }

@@ -51,7 +51,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ mix('js/home.js') }}"></script>
+    <script type="application/javascript" src="{{ mix('js/home.js') }}"></script>
 
     @yield('scripts')
 
@@ -59,6 +59,7 @@
         $(function () {
             $("[data-toggle='tooltip']").tooltip();
         });
+        window.wow.init();
     </script>
 </body>
 </html>

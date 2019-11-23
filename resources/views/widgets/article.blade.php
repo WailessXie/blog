@@ -2,7 +2,7 @@
     <div class="row">
         <ul class="list-unstyled col-md-10 offset-md-1">
             @forelse($articles as $article)
-            <li class="media">
+            <li class="media wow animated fadeIn" >
                 @if($article->page_image)
                 <a class="media-left mr-3" href="{{ url($article->slug) }}">
                     <img alt="{{ $article->slug }}" src="{{ $article->page_image }}" data-holder-rendered="true">
