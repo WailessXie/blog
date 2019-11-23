@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>404 页面找不到啦</title>
+    <title>500 页面找不到啦</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ config("blog.static") }}/assets/css/main.css" />
@@ -20,8 +20,8 @@
         </div>
         <div class="content">
             <div class="inner">
-                <h1>503</h1>
-                <p><!--[-->对不起，网站暂时不可用。不过，放心，一切都在我的掌控之中，不会太久的！<!--]--></p>
+                <h1>500</h1>
+                <p><!--[-->对不起，网站出错啦。不过，放心，一切都在我的掌控之中，不会太久的！<!--]--></p>
             </div>
         </div>
         <nav>
