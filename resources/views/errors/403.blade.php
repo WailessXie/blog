@@ -1,47 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>403 Forbidden.</title>
+<head>
+    <title>404 页面找不到啦</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ config("blog.static") }}/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="{{ config("blog.static") }}/assets/css/ie9.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="{{ config("blog.static") }}/assets/css/noscript.css" /></noscript>
+</head>
+<body>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<!-- Wrapper -->
+<div id="wrapper">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato', sans-serif;
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">403 Forbidden.</div>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <span class="icon fa-paper-plane"></span>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1>404</h1>
+                <p><!--[-->对不起，资源暂不可用。不过，放心，一切都在我的掌控之中，尝试联系网站管理员！<!--]--></p>
             </div>
         </div>
-    </body>
+        <nav>
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="{{ url('/') }}">{{ lang('Articles') }}</a></li>
+                <li><a href="{{ url('about') }}">{{ lang('About Me') }}</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">&copy; Wailess Xie. Blog: <a href="/">BLOG</a>.</p>
+    </footer>
+
+</div>
+
+<!-- BG -->
+<div id="bg"></div>
+
+<!-- Scripts -->
+<script src="{{ config("blog.static") }}/assets/js/jquery.min.js"></script>
+<script src="{{ config("blog.static") }}/assets/js/skel.min.js"></script>
+<script src="{{ config("blog.static") }}/assets/js/util.js"></script>
+<script src="{{ config("blog.static") }}/assets/js/main.js"></script>
+
+</body>
 </html>
