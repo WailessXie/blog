@@ -12,7 +12,7 @@
     @endcomponent
     <div class="container">
         <div class="row">
-            <div class="media">
+            <div class="media" style="display: flex">
                 <img src="https://s.gravatar.com/avatar/e73430b596922e7f468c2efd02ac7f90?s=80" class="mr-3" alt="..." height="80">
                 <div class="media-body">
                     <h4 class="mt-0">谢彪业（Wailess Xie）</h4>
