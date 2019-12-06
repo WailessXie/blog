@@ -41,7 +41,7 @@
                                                 @endforeach
                                             </div>
                                             <div class="events-footer">
-                                                123
+
                                             </div>
                                         </div>
                                     </dd>
