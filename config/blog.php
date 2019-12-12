@@ -30,33 +30,33 @@ return [
 
     // Social Share
     'social_share' => [
-        'article_share'    => env('ARTICLE_SHARE') ?: true,
+        'article_share' => env('ARTICLE_SHARE') ?: true,
         'discussion_share' => env('DISCUSSION_SHARE') ?: true,
-        'sites'            => env('SOCIAL_SHARE_SITES') ?: 'weibo',
-        'mobile_sites'     => env('SOCIAL_SHARE_MOBILE_SITES') ?: 'weibo,qq,wechat',
+        'sites' => env('SOCIAL_SHARE_SITES') ?: 'weibo',
+        'mobile_sites' => env('SOCIAL_SHARE_MOBILE_SITES') ?: 'weibo,qq,wechat',
     ],
 
     // Google Analytics
     'google' => [
-        'id'   => env('GOOGLE_ANALYTICS_ID', 'Google-Analytics-ID'),
+        'id' => env('GOOGLE_ANALYTICS_ID', 'Google-Analytics-ID'),
         'open' => env('GOOGLE_OPEN') ?: false
     ],
 
-    'static' =>env('STATIC'),
+    'static' => env('STATIC'),
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
+        'title' => 'Nothing is impossible.',
         'description' => '',
-        'number'      => 15,
-        'sort'        => 'desc',
-        'sortColumn'  => 'published_at',
+        'number' => 15,
+        'sort' => 'desc',
+        'sortColumn' => 'published_at',
     ],
 
     // Discussion Page
     'discussion' => [
         'number' => 20,
-        'sort'   => 'desc',
+        'sort' => 'desc',
         'sortColumn' => 'created_at',
     ],
 
@@ -64,13 +64,13 @@ return [
     'footer' => [
         'github' => [
             'open' => true,
-            'url'  => 'https://github.com/WailessXie',
+            'url' => 'https://github.com/WailessXie',
         ],
         'weibo' => [
             'open' => true,
-            'url'  => 'https://weibo.com/xiebiaoye'
+            'url' => 'https://weibo.com/xiebiaoye'
         ],
-        'meta' => '© Wailess Blog 2019. Powered By Wailess Xie',
+        'meta' => '<a style="font-size: 0.9rem" href="http://beian.miit.gov.cn/">'.env('ICPNO') . '</a> © Wailess Blog 2019. Powered By Wailess Xie',
     ],
 
     'license' => 'Powered By Wailess Xie.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
