@@ -72,35 +72,35 @@
                                      data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-2">
-                                                <div class="card">
+                                            <div class="col-lg-2  col-sm-6">
+                                                <div class="card position-relative">
                                                     <img
                                                         src="https://lychee.wailess.cn/uploads/medium/ef8c6827756ecd74e29b96f5aae79e11.jpeg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://movie.douban.com/people/171763982/collect"
+                                                        <a href="https://movie.douban.com/people/171763982/collect" class="stretched-link"
                                                            target="_blank">看过</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2  col-sm-6">
                                                 <div class="card">
                                                     <img
                                                         src="https://lychee.wailess.cn/uploads/medium/032088f547efc7286971012702008c2d.jpg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://movie.douban.com/people/171763982/do"
+                                                        <a href="https://movie.douban.com/people/171763982/do"  class="stretched-link"
                                                            target="_blank">正在看</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2  col-sm-6">
                                                 <div class="card">
                                                     <img
                                                         src="https://lychee.wailess.cn/uploads/medium/2148a04fb0b8947d334eb4d7b86f661d.jpg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://movie.douban.com/people/171763982/collect"
+                                                        <a href="https://movie.douban.com/people/171763982/collect"  class="stretched-link"
                                                            target="_blank">想看</a>
                                                     </div>
                                                 </div>
@@ -123,24 +123,24 @@
                                      data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2 col-sm-6">
                                                 <div class="card">
                                                     <img
                                                         src="https://lychee.wailess.cn/uploads/medium/a6ecc97b11e5dc9a2892abd68d694d19.jpg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://music.douban.com/people/171763982/"
+                                                        <a href="https://c.y.qq.com/base/fcgi-bin/u?__=I4mVt1Q"  class="stretched-link"
                                                            target="_blank">QQ音乐</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2 col-sm-6">
                                                 <div class="card">
                                                     <img
                                                         src="https://lychee.wailess.cn/uploads/medium/f259981a6fd59c9d40cc9b285fb2c092.jpg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://music.163.com/#/user/home?id=112491854"
+                                                        <a href="https://music.163.com/#/user/home?id=112491854"  class="stretched-link"
                                                            target="_blank">网易云音乐</a>
                                                     </div>
                                                 </div>
@@ -163,12 +163,12 @@
                                      data-parent="#accordionExample">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2  col-sm-6">
                                                 <div class="card">
                                                     <img src="https://lychee.wailess.cn/uploads/medium/4d8ffa6f68e17af015fdcccaf72511b1.png"
                                                          class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://steamcommunity.com/profiles/76561198274144693/"
+                                                        <a href="https://steamcommunity.com/profiles/76561198274144693/"  class="stretched-link"
                                                            target="_blank">Steam</a>
                                                     </div>
                                                 </div>
@@ -176,7 +176,7 @@
                                             <div class="col-lg-2">
 
                                             </div>
-                                            <div class="col-lg-2">
+                                            <div class="col-lg-2 ">
 
                                             </div>
                                             <div class="col-lg-2">
