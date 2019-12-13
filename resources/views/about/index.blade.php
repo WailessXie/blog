@@ -4,7 +4,8 @@
         .card {
             width: 100%;
         }
-        .nav-tabs{
+
+        .nav-tabs {
             width: 100%;
         }
     </style>
@@ -20,7 +21,7 @@
                      height="80">
                 <div class="media-body">
                     <h4 class="mt-0">谢彪业（Wailess Xie）</h4>
-                     <h5>一个90后的后端程序员。这个是本人首个正式的blog，希望能记录下自己一路走来的风风雨雨，这里不仅是技术，还有精彩的个人生活。</h5>
+                    <h5>一个90后的后端程序员。这个是本人首个正式的blog，希望能记录下自己一路走来的风风雨雨，这里不仅是技术，还有精彩的个人生活。</h5>
                 </div>
             </div>
             <div class="card mt-4">
@@ -55,7 +56,137 @@
                         技能
                     </div>
                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        爱好
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link text-decoration-none" type="button"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                            看剧
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                     data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img
+                                                        src="https://lychee.wailess.cn/uploads/medium/ef8c6827756ecd74e29b96f5aae79e11.jpeg"
+                                                        class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://movie.douban.com/people/171763982/collect"
+                                                           target="_blank">看过</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img
+                                                        src="https://lychee.wailess.cn/uploads/medium/032088f547efc7286971012702008c2d.jpg"
+                                                        class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://movie.douban.com/people/171763982/do"
+                                                           target="_blank">正在看</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img
+                                                        src="https://lychee.wailess.cn/uploads/medium/2148a04fb0b8947d334eb4d7b86f661d.jpg"
+                                                        class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://movie.douban.com/people/171763982/collect"
+                                                           target="_blank">想看</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed text-decoration-none" type="button"
+                                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                            听歌
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                     data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img
+                                                        src="https://lychee.wailess.cn/uploads/medium/a6ecc97b11e5dc9a2892abd68d694d19.jpg"
+                                                        class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://music.douban.com/people/171763982/"
+                                                           target="_blank">QQ音乐</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img
+                                                        src="https://lychee.wailess.cn/uploads/medium/f259981a6fd59c9d40cc9b285fb2c092.jpg"
+                                                        class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://music.163.com/#/user/home?id=112491854"
+                                                           target="_blank">网易云音乐</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed text-decoration-none" type="button"
+                                                data-toggle="collapse" data-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                            休闲
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                     data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <div class="card">
+                                                    <img src="https://lychee.wailess.cn/uploads/medium/4d8ffa6f68e17af015fdcccaf72511b1.png"
+                                                         class="card-img-top w-100 img-fluid" alt="">
+                                                    <div class="card-body">
+                                                        <a href="https://steamcommunity.com/profiles/76561198274144693/"
+                                                           target="_blank">Steam</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+
+                                            </div>
+                                            <div class="col-lg-2">
+
+                                            </div>
+                                            <div class="col-lg-2">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
