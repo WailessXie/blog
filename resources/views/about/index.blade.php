@@ -100,7 +100,7 @@
                                                         src="https://lychee.wailess.cn/uploads/medium/2148a04fb0b8947d334eb4d7b86f661d.jpg"
                                                         class="card-img-top w-100 img-fluid" alt="">
                                                     <div class="card-body">
-                                                        <a href="https://movie.douban.com/people/171763982/collect"  class="stretched-link"
+                                                        <a href="https://movie.douban.com/people/171763982/wish"  class="stretched-link"
                                                            target="_blank">想看</a>
                                                     </div>
                                                 </div>
