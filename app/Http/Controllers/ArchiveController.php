@@ -11,7 +11,7 @@ class ArchiveController extends Controller
 {
     public function index()
     {
-        $data = Article::checkAuth()->get();
+        $data = Article::checkAuth()->orderBy('created_at','desc')->get();
 //        dd($data);
         $articles =  (new Archive())->ArchivesDocument($data);
 //        $articles =  [];
