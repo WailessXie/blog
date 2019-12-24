@@ -27,6 +27,16 @@
         .list-group-item{
             margin-bottom: 4px;
         }
+        .progress .progress-bar{
+            -webkit-animation: animate-positive 2s;
+            animation: animate-positive 2s;
+        }
+        @-webkit-keyframes animate-positive{
+            0%{ width: 0; }
+        }
+        @keyframes animate-positive {
+            0%{ width: 0; }
+        }
     </style>
 @endsection
 @section('content')
