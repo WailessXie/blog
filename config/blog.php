@@ -70,7 +70,7 @@ return [
             'open' => true,
             'url' => 'https://weibo.com/xiebiaoye'
         ],
-        'meta' => '<a style="font-size: 0.9rem" href="http://beian.miit.gov.cn/">'.env('ICPNO') . '</a> © Wailess Blog 2019. Powered By Wailess Xie',
+        'meta' => '© Wailess Blog 2019. Powered By Wailess Xie<div><a target="_blank" href="'.env('BEIAN_URL').'" style="display:inline-block;font-size: 0.9rem"><img src="https://lychee.wailess.cn/uploads/big/fa0030b438ec9753e192054b8e91550d.png" style="height: 0.9rem"/><span style="margin: 0px 0px 0px 5px;">'.env('BEIAN_NO').'</span></a><a class="ml-1" target="_blank" style="font-size: 0.9rem" href="http://beian.miit.gov.cn/"><span>'.env('ICPNO').'</span></a></div>',
     ],
 
     'license' => 'Powered By Wailess Xie.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
